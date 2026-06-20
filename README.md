@@ -176,8 +176,18 @@ expense_app/
 ---
 
 ## 📸 Screenshots
-<img src="image-url.jpg" alt="Description of the image">
+admin dashboard
+<img src="../expense_app/assets/images/admin_dashboard.jpg" alt="Description of the image">
+admin manage users
+<img src="../expense_app/assets/images/manage_users.jpg" alt="Description of the image">
+admin transactions
+<img src="../expense_app/assets/images/admin_addtran.jpg" alt="Description of the image">
 
+admin add transactions
+<img src="../expense_app/assets/images/admin_addtran1.jpg" alt="Description of the image">
+
+admin reports
+<img src="../expense_app/assets/images/admin_reports.jpg" alt="Description of the image">
 ---
 
 ## 👨‍💻 Author

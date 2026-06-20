@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* LAYOUT */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 270px;
+    background: #111827;
+    height: 100vh;
+    padding: 40px 20px;
+    color: white;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background: #1f2937;
+}   
+
+.logout {
+    background: #b10000 !important;
+    color: white !important;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    width: 100%;
+}
+
+.topbar {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.page-title {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+/* DASHBOARD CARDS */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+/* ---------- BUTTONS ---------- */
+.add-btn {
+    display: inline-block;
+    background: #4a90e2;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.edit-btn {
+    background: #00b600;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background: #b10000;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ---------- TABLE ---------- */
+#table-con {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background: #3f3f5f;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background: #f5f5f5;
+}
+/* FORMS */
+.form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 400px;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+.form select{
+    width: 50%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+/* ===============================
+   DASHBOARD CHART GRID
+================================*/
+.charts-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* ===============================
+   MODERN CHART CARDS
+================================*/
+.chart-card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
+    height: 400px; /* FIXED card height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hover animation */
+.chart-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+}
+
+/* ===============================
+   CARD TITLES
+================================*/
+.chart-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* ===============================
+   CANVAS CONTROL — FIX CHART SIZE
+================================*/
+.chart-card canvas {
+    height: 300px !important;  /* Perfect fixed size */
+    width: 100% !important;
+}
+
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.dash{
+    margin-bottom: 15px;
+}
+.logout-btn:hover {
+    background: #dc2626 !important;
+}
+

@@ -147,18 +147,6 @@ expense_app/
    http://localhost/expense_app/public/login.php
 ```
 
----
-
-## 👤 Demo Credentials
-
-> ⚠️ For local/demo use only — change or remove before deploying publicly.
-
-| Role  | Email             | Password        |
-|-------|-------------------|------------------|
-| Admin | ibrahim@xyz.com   | *(set at signup)* |
-| User  | bhoot@ex.com      | *(set at signup)* |
-
----
 
 ## 🗺️ Roadmap
 
@@ -176,20 +164,36 @@ expense_app/
 ---
 
 ## 📸 Screenshots
-admin dashboard
-<img src="./assets/images/admin_dashboard.jpg" alt="Description of the image">
-admin manage users
-<img src="./assets/images/manage_users.jpg" alt="Description of the image">
-admin transactions
-<img src="./assets/images/admin_addtran.jpg" alt="Description of the image">
 
-admin add transactions
-<img src="./assets/images/admin_addtran1.jpg" alt="Description of the image">
+### Admin
 
-admin reports
-<img src="./assets/images/admin_reports.jpg" alt="Description of the image">
+**Dashboard**
+<img src="./assets/images/admin_dashboard.jpg" alt="Admin dashboard showing income, expenses, and profit overview" width="800">
+
+**Manage Users**
+<img src="./assets/images/manage_users.jpg" alt="Admin panel for adding, editing, and deleting users" width="800">
+
+**Transactions**
+<img src="./assets/images/admin_addtran.jpg" alt="Admin view of all income and expense transactions" width="800">
+
+**Add Transaction**
+<img src="./assets/images/admin_addtran1.jpg" alt="Form for adding a new income or expense transaction" width="800">
+
+**Reports**
+<img src="./assets/images/admin_reports.jpg" alt="Admin reports showing income vs expense analytics" width="800">
+
+### User
+
+**Dashboard**
+<img src="./assets/images/user_dashboard.jpg" alt="User dashboard with read-only transaction summary" width="800">
+
+**Transactions**
+<img src="./assets/images/user_tran.jpg" alt="User view of personal transaction history" width="800">
+
+**Reports**
+<img src="./assets/images/user_reports.jpg" alt="User reports showing personal income vs expense charts" width="800">
+
 ---
-
 ## 👨‍💻 Author
 
 **Ibrahim Abbas**
